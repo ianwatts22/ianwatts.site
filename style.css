@@ -24,7 +24,7 @@ html {
 }
 
 .fineprint {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .main {
@@ -37,7 +37,7 @@ html {
 }
 
 .header-container {
-  padding: 10px;
+  padding: 30px;
   position: relative;
 }
 
