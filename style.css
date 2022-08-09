@@ -1,10 +1,10 @@
+/* GENERAL */
 * {
   transition-duration: 200ms;
   font-family: 'Varela Round';
   color: black;
   font-size: 20px;
 }
-
 
 body {
   padding: 20px;
@@ -18,13 +18,20 @@ html {
   overflow: hidden;
 }
 
-
-.header-text {
-  font-size: 40px;
+/* SECTIONS/CONTAINERS */
+header {
+  text-align: center;
 }
 
-.fineprint {
-  font-size: 16px;
+footer {
+  padding: 10px;
+  position: center;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .main {
@@ -36,24 +43,18 @@ html {
   align-items: center;
 }
 
-.header-container {
-  padding: 30px;
-  position: relative;
+
+/* TEXT */
+h1 {
+  font-size: 40px;
 }
 
-.footer-container {
-  padding: 10px;
-  position: center;
-  /* display: flex; */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+.fineprint {
+  font-size: 16px;
 }
 
 .text {
   width: 100%;
   text-align: center;
-  display: block;
+  display: inline;
 }
