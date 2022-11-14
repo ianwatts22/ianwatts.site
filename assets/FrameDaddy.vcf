@@ -1,10 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//macOS 12.6//EN
+PRODID:-//Apple Inc.//macOS 13.0//EN
 N:;;;;
 FN:FrameDaddy
 ORG:FrameDaddy;
-EMAIL;type=INTERNET;type=HOME;type=pref:help@textframedaddy.com
+EMAIL;type=INTERNET;type=HOME;type=pref:business@textframedaddy.com
 TEL;type=pref:+14089103311
 item1.URL;type=pref:textframedaddy.com
 item1.X-ABLabel:_$!<HomePage>!$_
