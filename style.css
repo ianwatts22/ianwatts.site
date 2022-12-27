@@ -67,3 +67,15 @@ h1 {
 .icons {
   width: 30px;
 }
+
+/* propertiers for mobile screens */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 5%;
+    padding: 3%;
+  }
+  /* enable scrolling */
+  html {
+    overflow: auto;
+  }
+}
