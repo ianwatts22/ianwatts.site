@@ -12,7 +12,6 @@ body {
   margin-right: 20%;
   max-height: -webkit-fill-available;
   overflow: hidden;
-
 }
 
 html {
@@ -23,7 +22,6 @@ html {
 /* SECTIONS/CONTAINERS */
 header {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 footer {
@@ -66,6 +64,7 @@ h1 {
 /* MEDIA */
 .icons {
   width: 30px;
+  margin: 5px;
 }
 
 /* propertiers for mobile screens */
