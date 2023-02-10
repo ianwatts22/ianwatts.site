@@ -11,7 +11,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   max-height: -webkit-fill-available;
-  overflow: hidden;
+  overflow: auto;
 }
 
 html {
