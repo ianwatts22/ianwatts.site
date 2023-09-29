@@ -1,9 +1,37 @@
 /* GENERAL */
+:root {
+  --primary-color-1: #010c17;
+  --primary-color-2: #789abc;
+  --contrasting-color-1: #dec11b;
+  --contrasting-color-1-filter: invert(79%) sepia(100%) saturate(590%) hue-rotate(339deg) brightness(89%) contrast(95%);
+  --contrasting-color-2: #F3EFE8;
+  --accent-color-1: #9abcde;
+  --accent-color-2: #f01234;
+}
+
+
 * {
   transition-duration: 200ms;
   font-family: 'Varela Round';
-  color: black;
+  color: var(--primary-color-1);
   font-size: 20px;
+}
+
+/* NAVIGATION */
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  display: flex; /* Aligns items side by side */
+  justify-content: space-around; /* Distributes items evenly with space around them */
+  padding: 0; /* Removes default padding */
+}
+
+nav ul li a {
+  text-decoration: none; /* removes underline from links */
+  color: var(--primary-color-1);
+}
+
+nav ul li a:hover {
+  color: var(--contrasting-color-1);
 }
 
 body {
@@ -60,11 +88,21 @@ h1 {
   display: inline;
 }
 
+summary:hover, a:hover {
+  color: var(--contrasting-color-1); /* Replace with the color you want */
+}
+details:hover summary {
+  color: var(--contrasting-color-1); /* Replace with the color you want */
+}
+
 
 /* MEDIA */
 .icons {
   width: 30px;
   margin: 5px;
+}
+.icons:hover {
+  filter: var(--contrasting-color-1-filter);
 }
 
 /* propertiers for mobile screens */

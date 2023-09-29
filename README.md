@@ -9,3 +9,6 @@ want to be able to write in Markdown cuz HTML sucks, implemented some code in sc
 [another resource](https://www.markdownguide.org/getting-started/#websites)
 [ghost blog writer](https://www.markdownguide.org/tools/ghost/)
 [blot](https://blot.im): blogging platform that turns files in a folder (GDrive, Dropbox) into HTML (posts?) on a site
+
+
+[HEX to CSS filter converter](https://codepen.io/sosuke/pen/Pjoqqp)

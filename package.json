@@ -1,0 +1,16 @@
+{
+  "name": "ianwatts.site",
+  "version": "1.0.0",
+  "description": "Welcome to my site! I'm new to web dev and, after dabbling with Webflow, went back to the basics, so built with HTML, CSS, and JavaScript. Originally started learning on Angelu Yu Web Development Udemy with YouTube and StackOverflow. Then moved to Codeacademy Pro, which was a big improvement as you cememnted what you were learning with examples. Didn't work on it for a few months but now coming back as I've expanded my coding knowledge. Pretty much done with courses/tutorials and try to only learn what I need when I need with ChatGPT and Bing-GPT. YouTube for specific things and entertainment/exploration, and GitHub for library specific problems. Have barely touched StackOverflow in months.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "tailwindcss": "^3.3.3"
+  }
+}
